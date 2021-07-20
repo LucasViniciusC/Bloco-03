@@ -1,75 +1,149 @@
 <!DOCTYPE html>
-<html lang="pr-br">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Atividade 01</title>
-    <style>
-        body {
-            background: linear-gradient(45deg, rgba(36, 4, 94, 0.808), rgb(146, 24, 75)) no-repeat;
-            position: relative;
-            width: 100%;
-            min-height: 100vh;
-            overflow: hidden;
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-        }
-
-        h1 {
-
-            color: white;
-        }
-
-        ul li {
-            color: white;
-            margin-top: 5px;
-            text-decoration: none;
-            list-style: none;
-        }
-
-        section {
-            text-align: center;
-        }
-
-        .links {
-            position: absolute;
-            bottom: 5%;
-            text-decoration: none;
-        }
-
-        .links a {
-            text-decoration: none;
-            color: white;
-            font-weight: 600;
-            font-size: 1em;
-            border-radius: 25px;
-            background-color: rgb(98, 69, 224);
-        }
-
-        .links a:hover {
-            color: rgb(161, 160, 160);
-        }
-    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
 </head>
+
 <body>
-    <section class="conteudo">
-        <h1>Bolo de Fubá</h1>
-        <img src="https://experimentecozinha.com.br/wp-content/uploads/2019/11/WhatsApp-Image-2019-11-25-at-17.28.51.jpeg"
-            alt="">
-        <ul>
-            <li>3 ovos inteiros</li>
-            <li>2 xícaras (chá) de açúcar</li>
-            <li>2 xícaras (chá) de fubá</li>
-            <li>3 colheres (sopa) de farinha de trigo</li>
-            <li>1/2 copo (americano) de óleo</li>
-            <li>1 copo (americano) de leite</li>
-            <li>1 colher (sopa) de fermento em pó</li>
-        </ul>
+    <header id="header">
+        <div class="logo"><a href="index.html">Cakes</a></div>
+        <nav class="nav-list">
+            <a class="nav-item" href="index.html">Home</a>
+            <a class="nav-item" href="#">Contato</a>
+        </nav>
+    </header>
+    <section id="banner-home">
+        <!-- <img src="assets/Banner.jpg" alt=""> -->
+        <div class="text">
+            <h1>Cakes</h1>
+            <h2>As melhoras receitas você encontra aqui!!</h2>
+        </div>
     </section>
 
-    <div class="links">
-        <a href="bolinhos.html">BOLO MOLE PEGA MARIDO</a>
+    <div class="container">
+        <section id="melhores-receitas">
+            <ul>
+                <li>
+                    <a href="">Bolo de cenoura</a>
+                    <a href="">Bolo de brigadeiro</a>
+                    <a href="">Bolo formigueiro</a>
+                    <a href="">Bolo de fubá clássico</a>
+                    <a href="">Bolo pão de mel</a>
+                    <a href="">Bolo de milho</a>
+                    <a href="">Bolo de laranja</a>
+                    <a href="">Bolo de coco</a>
+                    <a href="">Bolo de caneca</a>
+                    <a href="">Bolo zebra</a>
+                    <a href="">Bolo de banana</a>
+                </li>
+            </ul>
+        </section>
+        <section id="posts">
+            <div class="post">
+                <div class="perfil">
+                    <img src="assets/repent-of-your-sins-seek-lord-jesus-y0I85D5QKvs-unsplash.jpg" alt="">
+                    <div class="text-perfil">
+                        <h3>Maria de Dúrce <span>12min.</span></h3>
+                        <p>82 anos, Cotia SP</p>
+                    </div>
+                </div>
+                <div class="postagem">
+                    <img src="assets/Bolos/bolo-1.jpg" alt="">
+                </div>
+            </div>
+            <div class="post">
+                <div class="perfil">
+                    <img src="assets/bbh-singapore-Z2MCFqEQiMw-unsplash.jpg" alt="">
+                    <div class="text-perfil">
+                        <h3>Marinalva Calisto <span>45min.</span></h3>
+                        <p>74 anos, Santos SP</p>
+                    </div>
+                </div>
+                <div class="postagem">
+                    <img src="assets/Bolos/bolo-2.jpg" alt="">
+                </div>
+            </div>
+            <div class="post">
+                <div class="perfil">
+                    <img src="assets/anthony-metcalfe-QQsRTGAZp9o-unsplash.jpg" alt="">
+                    <div class="text-perfil">
+                        <h3>Jeruza Dantas <span>58min.</span></h3>
+                        <p>68 anos, Belo Horizonte MG</p>
+                    </div>
+                </div>
+                <div class="postagem">
+                    <img src="assets/Bolos/bolo-3.jpg" alt="">
+                </div>
+            </div>
+           
+        </section>
+
+        <section id="usuarios">
+            <div class="perfil-online">
+                <img src="assets/bbh-singapore-Z2MCFqEQiMw-unsplash.jpg" alt="">
+                <div class="text-perfil">
+                    <h3>Marinalva Calisto</h3>
+                </div>
+                <div class="circle"></div>
+            </div>
+            <div class="perfil-online">
+                <img src="assets/repent-of-your-sins-seek-lord-jesus-y0I85D5QKvs-unsplash.jpg" alt="">
+                <div class="text-perfil">
+                    <h3>Marinalva Calisto</h3>
+                </div>
+                <div class="circle"></div>
+            </div>
+            <div class="perfil-online">
+                <img src="assets/anthony-metcalfe-QQsRTGAZp9o-unsplash.jpg" alt="">
+                <div class="text-perfil">
+                    <h3>Marinalva Calisto</h3>
+                </div>
+                <div class="circle"></div>
+            </div>
+            <div class="perfil-online">
+                <img src="assets/bbh-singapore-Z2MCFqEQiMw-unsplash.jpg" alt="">
+                <div class="text-perfil">
+                    <h3>Marinalva Calisto</h3>
+                </div>
+                <div class="circle"></div>
+            </div>
+            <div class="perfil-online">
+                <img src="assets/repent-of-your-sins-seek-lord-jesus-y0I85D5QKvs-unsplash.jpg" alt="">
+                <div class="text-perfil">
+                    <h3>Marinalva Calisto</h3>
+                </div>
+                <div class="circle"></div>
+            </div>
+            <div class="perfil-online">
+                <img src="assets/anthony-metcalfe-QQsRTGAZp9o-unsplash.jpg" alt="">
+                <div class="text-perfil">
+                    <h3>Marinalva Calisto</h3>
+                </div>
+                <div class="circle"></div>
+            </div>
+            <div class="perfil-online">
+                <img src="assets/repent-of-your-sins-seek-lord-jesus-y0I85D5QKvs-unsplash.jpg" alt="">
+                <div class="text-perfil">
+                    <h3>Marinalva Calisto</h3>
+                </div>
+                <div class="circle"></div>
+            </div>
+            <div class="perfil-online">
+                <img src="assets/anthony-metcalfe-QQsRTGAZp9o-unsplash.jpg" alt="">
+                <div class="text-perfil">
+                    <h3>Marinalva Calisto</h3>
+                </div>
+                <div class="circle"></div>
+            </div>
+        </section>
     </div>
 </body>
 
