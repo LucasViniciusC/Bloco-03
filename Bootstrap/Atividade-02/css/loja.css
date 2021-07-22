@@ -1,0 +1,47 @@
+.banner-loja img{
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    filter: invert(5%);
+}
+
+.conteudo-loja{
+    background: black;
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
+.item{
+    margin-left: 110px;
+}
+.item h5:nth-child(1){
+    text-align: center;
+    color: whitesmoke;
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+.item h5:nth-child(2){
+    text-align: center;
+    color: whitesmoke;
+    font-size: 14px;
+    margin-top: 30px;
+}
+
+.item h2{
+    color: whitesmoke;
+    text-align: center;
+}
+
+.item img{
+    width: 200px;
+    margin-top: 20%;
+    border-radius: 20px ;
+}
+
+.ellie img{
+    width: 500px;
+    position: absolute;
+    right: 0;
+    filter: opacity(0.50);
+}

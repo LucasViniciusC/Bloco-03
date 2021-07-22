@@ -1,0 +1,87 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Playfair Display', serif;
+}
+
+body{
+    
+}
+
+#login{
+    height: 605px;
+    background-image: url(../assets/img/tema-the-last-of-us-part-ii-1.jpg);
+    background-size: cover;
+    width: 100%;
+    position: relative;
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+.caixa-login{
+    width: 500px;
+    height: 500px;
+    background-color: rgba(255, 255, 255, 0.295);
+    position: absolute;
+    top: 45px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.caixa-login form{ 
+    margin-top: 45px;
+}
+
+.inputs{    
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+    width: 300px;
+    height: 300px;
+}
+
+.caixa-login label{    
+    font-size: 24px;
+    color: rgb(252, 31, 31);
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.form-check label{    
+    font-size: 18px;
+    color: rgb(252, 31, 31) !important;
+    font-weight: 600;
+}
+
+.inputs input{    
+    height: 50px;
+    border-radius: 10px;
+    background: none;
+    width: 300px;
+}
+
+.inputs input:focus{    
+    outline: none;
+}
+
+.buttons{
+    padding: 15px;
+    margin-top: 15px;
+    background: linear-gradient(40deg, rgb(255, 107, 107) , rgb(255, 91, 91));
+    border-radius: 10px;
+}
+
+.buttons a{
+   text-decoration: none;
+   color: white;
+   font-size: 18px;
+}
+
+.buttons a{
+   text-decoration: none;
+   color: white;
+   font-size: 18px;
+}

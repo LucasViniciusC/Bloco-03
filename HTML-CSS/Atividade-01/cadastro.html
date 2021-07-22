@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="css/contato.css">
+    <title>Contato</title>
+</head>
+
+<body>
+    <form action="">
+        <div id="form">
+            <div class="inputs">
+                <h3>Cadastrar</h3>
+
+                <label for="" id="valida-nome">Nome</label>
+                <input type="email" placeholder="Informe o seu nome" id="input-nome" onkeyup="validaNome()">
+
+                <label for="" id="valida-email">E-mail</label>
+                <input type="email" placeholder="cakes@contato.com" id="input-email" onkeyup="validaEmail()">
+
+                <label for="" id="valida-senha">Senha</label>
+                <input type="password" placeholder="Informe o assunto do seu contato" id="input-senha"
+                    onkeyup="validaSenha()">
+                <img src="assets/Eye.png" alt="" id='eyes'>
+
+                <label for="" id='label-confirma-senha'>Confirme a sua senha</label>
+                <input type="password" placeholder="Informe o assunto do seu contato" id="senha-confirma"
+                    onkeyup="verificaSenhas()" id="submit">
+                <img src="assets/Eye.png" alt="" id='eyes-2'>
+            </div>
+
+            <div class="buttons">
+                <a href="" onclick="enviar()">Cadastrar</a>
+            </div>
+        </div>
+        <div class="caixa">
+            <div class="text">
+                <h3>Cakes</h3>
+                <span>" Proident eiusmod occaecat Lorem et minim duis do eu. Do fugiat sint magna voluptate Lorem
+                    eiusmod
+                    adipisicing dolore ex cupidatat aliqua minim. "</span>
+            </div>
+        </div>
+    </form>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
