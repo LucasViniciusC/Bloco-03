@@ -1,0 +1,228 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Playfair Display', serif;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.row {
+    margin-left: 0 !important;
+}
+
+.container-fluid{
+    padding: 0 !important;
+}
+
+.logo {
+    width: 100px;
+    height: 80px;
+    background-size: cover;
+    margin-left: 25px;
+    filter: invert(1);
+}
+
+.borda {
+    border: 1px solid red;
+}
+
+.navbar {
+    height: 80px;
+    background-color: rgb(0, 0, 0) !important;
+}
+
+.navbar-nav a {
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.banner {
+}
+
+.banner img {
+    animation: animacao-imagem 12s ease-in-out infinite
+}
+
+.links {
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+.links a {
+    font-weight: 100;
+    font-size: 14px;
+    transition: .5s ease-in-out;
+}
+
+.links a:hover {
+    color: rgb(173, 18, 18) !important;
+    letter-spacing: 0.8px;
+    transform: translateY(-5px);
+}
+
+.conteudo {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.conteudo h2 {
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 74px;
+    margin-bottom: 20px;
+}
+
+.conteudo p {
+    color: white;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.primeiro-conteudo {
+    margin-top: 70px;
+    margin-left: 200px;
+}
+
+.caixa-segundo-conteudo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 45px;
+}
+
+.segundo-conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.segundo-conteudo h2 {
+    color: rgba(255, 0, 0, 0.753);
+    font-size: 84px;
+    margin-top: 60px;
+    animation: text-animation 5s ease-in-out infinite;
+}
+
+.segundo-conteudo p {
+    color: aliceblue;
+    text-align: justify;
+    font-size: 20px;
+}
+
+.img-elie img {
+    right: 0;
+    opacity: 20%;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    top: -5%;
+}
+
+.video {
+    margin-top: 20px;
+}
+
+.cards {
+    margin-top: 40px;
+    margin-left: 70px;
+
+}
+
+.card {
+    background: none;
+}
+
+.card img {
+    width: 250px;
+    height: 130px;
+    transition: .20s ease-in-out;
+}
+
+.card img:hover {
+    transform: scale(120%);
+}
+
+.caixa-cards {
+    width: 1300px;
+}
+
+#footer {
+    width: 100%;
+    height: 200px;
+    background: rgba(0, 0, 0, 0.966);
+    border-top: 5px double rgba(255, 255, 255, 0.048);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.social {
+    display: flex;
+    width: 100%;
+    height: 125px;
+    bottom: 0;
+    left: -1%;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
+
+.social img {
+    width: 24px;
+    height: 24px;
+    filter: invert(100);
+    margin-left: 30px;
+}
+
+.social img:nth-child(3) {
+    width: 30px;
+    height: 30px;
+}
+
+.logo-produtora {
+    display: flex;
+    justify-content: center;
+}
+
+.logo-produtora img {
+    position: absolute;
+    width: 150px;
+    height: 100px;
+}
+
+@keyframes animacao-imagem {
+    0% {
+        filter: drop-shadow(0);
+    }
+
+    50% {
+        filter: grayscale(100%);
+        transform: scale(120%);
+    }
+
+    100% {
+        filter: drop-shadow(0);
+    }
+}
+
+@keyframes text-animation {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0.5;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
